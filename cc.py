@@ -433,7 +433,7 @@ def step_4_operational_costs():
 
     operational_data = {
         "Cost Category": ["Databricks", "Cloud Storage", "Monitoring Tools", "Training", "Travel"],
-        "Monthly Cost": [5000, 2000, 1000, 500, 1000],
+        "Monthly Cost": [0, 0, 0, 500, 1000],
     }
 
     op_costs['costs'] = st.data_editor(
